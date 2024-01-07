@@ -16,11 +16,11 @@
 </head>
 
 <body>
-    
+
     <header>
-        
+
         <nav>
-            
+
             <a href="/">
                 <svg class="icon icon-main-logo">
                     <use xlink:href="assets/svg/svg-sprites.svg#icon-main-logo"></use>
@@ -40,13 +40,15 @@
                     </select>
                 </li>
             </ul>
-            
+
         </nav>
-        
+
     </header>
-    
+
     <section class="hero">
-        <svg class="icon icon-decore-hero"><use xlink:href="assets/svg/svg-sprites.svg#icon-decore-hero"></use></svg>
+        <svg class="icon icon-decore-hero">
+            <use xlink:href="assets/svg/svg-sprites.svg#icon-decore-hero"></use>
+        </svg>
         <figure>
             <figcaption>
                 <h4>Best Destinations around the world</h4>
@@ -63,36 +65,46 @@
             </figcaption>
             <img src="assets/png/hero-image.png" alt="hero-image" class="hero-img">
         </figure>
-       
+
     </section>
     <section class="services">
-        <h4>Category</h4>
-        <h2>We Offer Best Services</h2>
-        <ul>
-            <li>
-                <img src="" alt="satalite">
-                <h4>Calculated Weather </h4>
-                <p>Built Wicket longer admire do barton vanity itself do in it.</p>
-            </li>
-            <li>
-                <img src="" alt="plane">
-                <h4>Best Flights</h4>
-                <p>Engrossed listening. Park gate sell they west hard for the.</p>
-                <svg></svg>
-            </li>
-            <li>
-                <img src="" alt="microphone">
-                <h4>Local Events</h4>
-                <p>Barton vanity itself do in it. Preferd to men it engrossed listening. </p>
-            </li>
-            <li>
-                <img src="" alt="gear">
-                <h4>Customization</h4>
-                <p>We deliver outsourced aviation services for military customers</p>
-            </li>
-        </ul>
-        <svg></svg>
-
+        <div class="services__wrapper">
+            <h4 class="services__heading-4_top">Category</h4>
+            <h2 class="services__heading-2_top">We Offer Best Services</h2>
+            <ul>
+                <li>
+                    <svg class="services__icon icon-calculated-weather-">
+                        <use xlink:href="assets/svg/svg-sprites.svg#icon-calculated-weather-"></use>
+                    </svg>
+                    <h4>Calculated Weather </h4>
+                    <p>Built Wicket longer admire do barton vanity itself do in it.</p>
+                </li>
+                <li>
+                    <svg class="icon icon-best-flights">
+                        <use xlink:href="assets/svg/svg-sprites.svg#icon-best-flights"></use>
+                    </svg>
+                    <div class="services__item-flights">
+                    <h4>Best Flights</h4>
+                    <p>Engrossed listening. Park gate sell they west hard for the.</p>
+                    </div>
+                    
+                </li>
+                <li>
+                    <img src="assets/svg/microphone.svg" alt="microphone" class="services__icon">
+                    <h4>Local Events</h4>
+                    <p>Barton vanity itself do in it. Preferd to men it engrossed listening. </p>
+                </li>
+                <li>
+                    <svg class="services__icon icon-customization">
+                        <use xlink:href="assets/svg/svg-sprites.svg#icon-customization"></use>
+                    </svg>
+                    <h4>Customization</h4>
+                    <p>We deliver outsourced aviation services for military customers</p>
+                </li>
+            </ul>
+            <svg class="icon icon-pluses-top"><use xlink:href="assets/svg/svg-sprites.svg#icon-pluses-top"></use></svg>
+            <svg class="icon icon-decor-best-flights"><use xlink:href="assets/svg/svg-sprites.svg#icon-decor-best-flights"></use></svg>
+        </div>
     </section>
     <section class="top-selling">
         <h4>Top Selling</h4>
