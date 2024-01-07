@@ -13,8 +13,7 @@ ul {
     margin: 0;
 }
 
-h1,
-h2 {
+h1,h2 {
     font-family: 'Volkhov', serif;
 }
 h2{
@@ -260,5 +259,88 @@ text-transform: uppercase;
     bottom: 218px;
     right: 266px;
     z-index: -10;
+    margin-bottom: -240px;
 }
 /* end services block */
+
+/* top-selling block */
+
+.top-selling{
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+.top-selling h4,h2,p{
+    margin: 0;
+}
+.top-selling h2{
+    margin-bottom: 60px;
+}
+.top-selling__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 123px;
+}
+.top-selling ul{
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+}
+.top-selling__pictures{
+    width: 314px;
+    height: 457px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    border-radius: 24px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+}
+.top-selling__picture-background-1{
+    background-image: url(../assets/png/rome.png);
+    background-position: top;
+    
+}
+.top-selling__picture-background-2{
+    background-image: url(../assets/png/london.png);
+    background-position: top;
+}
+.top-selling__picture-background-3{
+    background-image: url(../assets/png/europe.png);
+    background-position: top ;
+    
+}   
+.top-selling__pictures_content{
+    display: flex;
+    flex-direction: column;
+    width: 314px;
+    height: 130px;
+    background-color: #FFF;
+    border-radius: 0 0 24px 24px;
+    align-items: baseline;
+    
+    
+}
+.top-selling__pictures_headings{
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+    margin-bottom: 19px;
+    margin: 27px 25px 19px 20px;
+}
+.top-selling__pictures_duration-info{
+    display: flex;
+    gap: 14px;
+}
+.top-selling__spiral-decore{
+    width: 99px;
+    height: 254px;
+    position: absolute;
+    left: 50%;
+    background-image: url(../assets/svg/spiral-decore-top-sellings.svg);
+    left: 83.5%;
+    top: 49.5%;
+    z-index: -5;
+}
+/* end top-selling block */
