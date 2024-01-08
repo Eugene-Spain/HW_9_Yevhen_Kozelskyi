@@ -527,7 +527,21 @@ p {
     padding-right: 3px;
     margin: 0 13px 21px 0;
 }
-
+.book-steps__right-part .book-steps__old-price{
+    font-size: 14px;
+    color: red;
+    text-decoration: line-through;
+    border-right: none;
+    margin: 0 10px 0 205px;
+}
+.book-steps__right-part .book-steps__new-price{
+    color: green;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: underline;
+    border-right: none;
+    margin: 0;
+}
 .book-steps__icon-mid {
     width: 36px;
     height: 36px;
@@ -578,11 +592,12 @@ p {
     bottom: 152px;
     left: 202px;
 }
-.book-steps__add-block:hover{
-    transition: 1.8s;
-    transform: skew(5deg, -25deg);
-}
 
+.book-steps__right-part:hover .book-steps__add-block{
+    transition: 1.8s;
+    transform: skew(5deg, -15deg);
+    translate: 120px -100px;
+}
 .book-steps__add-block ul {
     display: flex;
     padding: 17px 25px 22px 20px;
