@@ -168,7 +168,13 @@ text-transform: uppercase;
     margin-bottom: -858px;
     z-index: -5;
 }
-
+.hero__purple-eclipse{
+    position: relative;
+    bottom: 114px;
+    right: 771px;
+    margin-bottom: -540px;
+    opacity: 0.6;
+}
 /* end hero block */
 
 /* services block */
