@@ -216,7 +216,7 @@ header .icon-main-logo {
 }
 
 .services__wrapper {
-    margin: 105px 0 0 0px;
+    margin: 105px 0 -122px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -262,18 +262,36 @@ header .icon-main-logo {
     margin-top: 66px;
 }
 
-.services__item-flights {
-    border: 1px solid #FFF;
-    border-radius: 36px;
-    background: var(--white, #FFF);
-    box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
-}
-/* .services ul li:hover{
+/* .services__item-flights {
     border: 1px solid #FFF;
     border-radius: 36px;
     background: var(--white, #FFF);
     box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
 } */
+.services ul li:hover{
+    border: 1px solid #FFF;
+    border-radius: 36px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+    transition: 0.3s;
+}
+.icon-decore-services{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: -10; 
+    top: 270px;
+    right: 200px;  
+}
+.icon-decore-services:not(:hover){
+    opacity: 0 ;
+}
+.services ul li:hover .icon-decore-services{
+    opacity: 1;
+    transition: 0.5s 0.2s;
+    transform: rotate(360deg);
+}
+
 .services ul li p {
     padding: 0 42px 45px 44px;
 }
@@ -309,15 +327,7 @@ header .icon-main-logo {
     left: 41%;
 }
 
-.icon-decor-best-flights {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    bottom: 218px;
-    right: 266px;
-    z-index: -10;
-    margin-bottom: -240px;
-}
+
 
 /* end services block */
 
@@ -382,6 +392,7 @@ p {
 .top-selling__pictures:hover{
     transition: 0.6s 0.2s;
     transform: rotate(-5deg);
+    
 }
 .top-selling__pictures_content {
     display: flex;
