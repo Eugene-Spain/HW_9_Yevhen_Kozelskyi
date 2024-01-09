@@ -834,7 +834,7 @@ p {
 .subscribe__wrapper {
     margin-top: 124px;
     padding: 79px 155px 78px 156px;
-    border-radius: 20px 129px 20px 20px;
+    border-radius: 20px 69px 20px 20px;
     background: var(--light-color, #f9f7fe);
     display: flex;
     flex-direction: column;
@@ -843,6 +843,7 @@ p {
     position: relative;
     overflow: hidden;
     z-index: 10;
+
 }
 
 .subscribe__wrapper h3 {
@@ -921,7 +922,16 @@ p {
     left: 95%;
     top: 78%;
 }
+.subscribe__telegram-decor{
+    background-image: url(../assets/svg/telegram-icon.svg);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: -1%;
+    right: -1%;
+    z-index: 15;
 
+}
 /* end subscribe block */
 
 /* footer block */
