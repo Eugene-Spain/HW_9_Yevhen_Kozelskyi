@@ -834,7 +834,7 @@ p {
 .subscribe__wrapper {
     margin-top: 124px;
     padding: 79px 155px 78px 156px;
-    border-radius: 20px 69px 20px 20px;
+    border-radius: 129px 20px 20px 20px;
     background: var(--light-color, #f9f7fe);
     display: flex;
     flex-direction: column;
@@ -927,8 +927,8 @@ p {
     width: 70px;
     height: 70px;
     position: absolute;
-    top: -1%;
-    right: -1%;
+    top: -4%;
+    right: -2%;
     z-index: 15;
 
 }
