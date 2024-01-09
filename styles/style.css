@@ -36,7 +36,12 @@ p {
     font-size: 16px;
     font-weight: 500;
 }
-
+.heading-description{
+    font-weight: 600;
+    font-size: 18px;
+    color: #5E6282;
+    margin: 0;
+}
 /* header block */
 header {
     width: 1440px;
@@ -118,7 +123,7 @@ header .icon-main-logo {
 
 }
 
-.hero h4 {
+.hero .heading-description {
     font-size: 20px;
     color: #DF6951;
     font-weight: 700;
@@ -223,7 +228,7 @@ header .icon-main-logo {
     align-items: center;
 }
 
-.services__heading-4_top {
+.heading-description {
     text-transform: uppercase;
 }
 
@@ -682,7 +687,7 @@ p {
     margin-right: 87px;
 }
 
-.testimonials__headings h4 {
+.heading-description {
     text-transform: uppercase;
 }
 
